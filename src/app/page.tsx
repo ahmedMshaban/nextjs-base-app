@@ -1,10 +1,12 @@
 import Image from "next/image";
+import { Button } from "@chakra-ui/react";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <Button colorScheme="blue">Button</Button>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
